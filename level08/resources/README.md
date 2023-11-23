@@ -47,7 +47,7 @@ int main(int argc,char **argv,char **envp)
 }
 ```
 
-# The program print the content of token but only if the fail is not named token
+# The program print the content of token but only if the file is not named `token`
 
 ln /home/user/level08/token /tmp/test -s
 
